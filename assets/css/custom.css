@@ -1,0 +1,272 @@
+/*Custom css*/
+.text-center{
+	text-align:center;
+}
+.auto-overflow{
+	overflow:auto;
+}
+.order-table th{
+	color:#454545;
+}
+.flex {
+    display: flex;
+    display: -webkit-flex;
+}
+.flex-wrap {
+    flex-wrap: wrap;
+}
+.border-bottom {
+    border-bottom:1px solid;
+}
+.border-silver {
+    border-color: #c5c5c5;
+}
+.checkout-header-item {
+    width: 25%;
+}
+.checkout-header-description {
+    width: 50%;
+}
+.checkout-header-price, .checkout-header-total {
+    width: 12.5%;
+}
+.width-100{
+width:100%;}
+.step_number {
+    font-size: 11px;
+    color: #fff;
+    background: #446084;
+    display: inline-block;
+    font-weight: 700;
+    line-height: 1.8em;
+    margin-right: 3px;
+    text-align: center;
+    width: 2.3em;
+    height: 2.3em;
+    border: 3px solid #f4f4f4;
+    border-radius: 50%;
+}
+.step_title {
+    color: #4e4e4e;
+    font-weight: 400;
+    margin-top: 4px;
+}
+.font_11 {
+    font-size: 11px;
+}
+.centre_align {
+    text-align: center;
+}
+.responsive-img{
+display: block;
+    max-width: 100%;
+    height: auto;
+}
+.option-paypal{
+width:280px;
+margin:0 auto;
+background-color: #f5f5f5;
+padding: 10px;
+border: 1px solid #cecece;
+}
+#payment p{
+margin-bottom:7px;}
+.process-btn{
+background-color:#337ab7;
+padding:10px;
+color:#fff;
+text-align:center;
+border-radius:3px;}
+.check-progress_bar {
+    width: 670px;
+    margin: 20px auto;
+}
+.progress_line {
+    height: 4px;
+    width: 100%;
+    background: #446084;
+}
+.progress_steps {
+    margin-top: -13px;
+}
+.progress_step_1 {
+    margin-left: 78px !important;
+}
+.progress_step {
+    margin-left: 110px;
+}
+.mb-10{
+margin-bottom:10px;
+}
+.pl-15{
+padding-left:15px;}
+.pr-15{
+padding-right:15px;}
+.pb-10{
+padding-bottom:10px;}
+.font-bold{
+font-weight:700;}
+.float-left{
+float:left;}
+.float-left {
+    float: left!important;
+}
+.checkout-box{
+border:1px solid #ddd;
+padding:10px;
+}
+.checkout-btn{
+    padding: 0 9px;
+    border: 1px solid #ddd;
+    margin: 0 5px;}
+.remove-link{
+color:red;}
+.ship-value{
+margin-left:auto;}
+.total-value{
+	margin-left:auto;
+}
+.procheck-btn,.procheck-btn:hover{
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    background-color: #334862;
+    color: #fff;
+    padding: 10px;
+}
+.proview{
+    border: 1px solid #ddd;
+    padding: 15px;
+    text-align: center;
+}
+.measure-grp input[type=radio]{
+    margin: 0 10px;
+}
+.measure-grp{
+    background-color: #ededed;
+    width: 283px;
+    margin: 0 auto;
+    padding: 4px 7px;
+    border-radius: 3px;
+}
+.wd-grp input[type=text]{
+    margin:10px 0 5px;
+width:auto;
+}
+.wd-grp{
+    margin-top: 20px;
+}
+.pro-lable{
+    width:15%;
+    float: left;
+}
+.color-blue{
+    color: #559BDC;
+}
+.addcart-btn{
+    width: 100%;
+    background-color: #D26E4B;
+    border: none;
+    color:#fff;
+    font-weight: bold;
+    padding: 10px 0;
+}
+.form-grp  input[type=text]{
+   width:60%;
+}
+.pro-price{
+    margin: 20px 0;
+}
+.proform-grp{
+    margin: 20px 0;}
+.w-100{
+    width: 100%;
+}
+.account-content{
+min-height:100px;}
+.account-btn,.account-btn:hover{
+    background-color: #446084;
+    width: 100%;
+    display: block;
+    padding: 10px;
+    text-align: center;
+    color: #fff;
+}
+.my_details li{
+list-style-type:none;
+margin-left:0 !important;
+margin-bottom:3px;
+}
+.fl-wrap {
+    position: relative;
+    width: 48%;
+    float: left;
+    margin-right: 2%;
+}
+.changedetail-btn,.changepass-btn{
+color: #fff;
+    padding: 10px;
+    font-size: 12px;
+    background-color: #334862;}
+	.address-btn{
+color: #fff;
+    padding: 10px;
+    font-size: 12px;
+    background-color: #334862;
+margin-left:10px;
+}
+.addresssunlink a{
+display:block;
+margin-bottom:10px;
+}
+
+@media screen and (max-width: 767px){
+.checkout-header-description, .checkout-header-item, .checkout-header-price, .checkout-header-total {
+    width: 50%;
+}
+.hidden-xs{
+	display:none;
+}
+.check-progress_bar {
+    width: 100%;
+}
+.progress_step {
+    width: 25%;
+}
+.progress_step_1 {
+    margin-left: 3% !important;
+}
+.progress_step {
+    margin-left: -2%;
+    width: 25%;
+}
+
+
+}
+@media screen and (min-width: 768px){
+.show-xs{
+	display:none;
+}
+}
+@media screen and (max-width:425px){
+    .measure-grp {
+        width: 257px;  
+    }
+}
+@media screen and (min-width:768px)and (max-width:991px){
+    .wd-grp input[type=text]{
+        width:158px;
+    }
+}
+
+.woocommerce-error li {
+    margin-bottom: 0px;
+    margin-left: 0px !important;
+}
+
+.processing, .loading-spin {
+	background: #fff;
+	opacity:.6;
+}
+
+

@@ -1,0 +1,97 @@
+.short-code-css
+{
+	border: 1px solid;
+    padding: 8px;
+  
+}
+table thead  {
+    background-color: #d40579;
+	color: #fff !important;
+	font-weight: bold;
+	text-align: center !important;
+	font-size:16px !important;
+	
+}
+td.shortcode-title {
+    font-size: 14px;
+    font-weight: bold;
+    PADDING: 8px;
+    color: #000 !IMPORTANT;
+}
+.customers td, .customers th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+.short-code-heading
+{
+width:100%;
+margin:20px auto 0;
+background: #fff;
+padding:15px;
+}
+.source-code-tit
+{
+	text-align:center;
+}
+.source-code-tit h1
+{
+	display: inline-block;
+	margin: 0 0 0 1px;
+	font-size: 31px;
+}
+.customers
+{
+	width:100%;
+	margin:0px auto 0;
+	background: #fff;
+	padding:25px;
+}
+table.customers th {
+    padding: 8px;
+    text-transform: uppercase;
+    text-align: center;
+}
+.blindmatrix-api{
+width:90%;
+margin:20px auto 0;
+background: #fff;
+padding:15px
+}
+.blindmatrix-api td
+{
+text-align:center;
+}
+.blindmatrix-api h1
+{
+display: inline-block;
+margin: 0 0 0 1px;
+font-size: 30px;
+}
+.blindmatrix-api-innerpage
+{
+width:90%;
+border:1px solid #ddd;
+margin:0 auto;
+background: #fff;
+padding:20px;
+}
+.blindmatrix-api-innerpage th{
+	padding:10px
+}
+.blindmatrix-api-innerpage td{
+	padding:10px
+}
+.blindmatrix-api-innerpage tr{
+}
+.api-url-name
+{
+	width:100%
+}
+.api-name
+{
+	width:100%
+}
+
+button.btn.demo.btn-green.premium_popsubmit {
+    margin-left: 25px !important;
+}
